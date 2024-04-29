@@ -1,0 +1,137 @@
+body {
+  font-size: 18px;
+}
+
+.howto-container {
+  margin: 0 auto;
+  padding: 2rem 5px;
+  width: 100%;
+  // max-width: 1440px;
+
+  & h1 {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+
+  & .container-subheading {
+    color: var(--color-text);
+    margin-bottom: 1rem;
+  }
+
+  & .container-content {
+    margin-top: 1rem;
+  }
+}
+
+.padding-primary {
+  padding: 2rem 3rem;
+}
+
+.padding-secondary {
+  padding: 1rem 0;
+}
+
+.font-bold {
+  font-weight: bold;
+}
+
+.bg-primary {
+  background: #2d4968;
+}
+
+.bg-primary-dark {
+  background-color: var(--color-primary-dark);
+}
+
+.bg-primary-darker {
+  background-color: var(--color-primary-darker);
+}
+
+.bg-dark {
+  background-color: var(--color-dark);
+}
+
+.bg-light {
+  background-color: var(--color-light);
+}
+
+.dot {
+  height: 2px;
+  width: 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  margin-inline: 1rem;
+}
+
+.ml-1 {
+  margin-left: 0.5rem;
+}
+
+.heading-primary {
+  font-size: 2rem;
+}
+
+.heading-secondary {
+  font-size: 1.2rem;
+}
+
+.rounded-xs {
+  border-radius: 1px;
+}
+
+// Right Column Ad
+
+.rightcolumn {
+  @media only screen and (min-width: 728px) {
+    width: 356px;
+  }
+  @media only screen and (max-width: 990px) {
+    display:none;
+  }
+  .right-container {
+    position: sticky;
+    top: -325px;
+  }
+  .right-unit {
+    width: 336px;
+    height: 300px;
+    margin-bottom: 15px;
+    background: #20364c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  @media only screen and (min-width: 0px) and (min-height: 0px) {
+    div[id^="bsa-zone_1684846629876-8_123456"] {
+      min-width: 250px;
+      min-height: 250px;
+    }
+  }
+  @media only screen and (min-width: 640px) and (min-height: 0px) {
+    div[id^="bsa-zone_1684846629876-8_123456"] {
+      min-width: 300px;
+      min-height: 250px;
+    }
+  }
+
+  @media only screen and (min-width: 0px) and (min-height: 0px) {
+    div[id^="bsa-zone_1684846715002-8_123456"] {
+      min-width: 250px;
+      min-height: 250px;
+    }
+  }
+  @media only screen and (min-width: 640px) and (min-height: 0px) {
+    div[id^="bsa-zone_1684846715002-8_123456"] {
+      min-width: 300px;
+      min-height: 250px;
+    }
+  }
+
+  & a {
+    color: var(--color-accent);
+    font-size: 0.9rem;
+    text-decoration: none;
+  }
+}

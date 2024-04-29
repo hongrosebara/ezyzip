@@ -1,0 +1,33 @@
+:root {
+  --color-primary: #04A7E8;
+  --color-primary-dark: #04679E;
+  --color-primary-darker: #365c84;
+  --color-primary-darkest: #2d4968;
+  --color-text: #ebebeb;
+  --color-text-darker: #CACACA;
+  --color-text-lighter: #fdfdfb;
+  --color-dark: #040505;
+  --color-accent: #e5d5c1;
+  --color-accent-darker: #ccac84;
+  
+  // Paddings on mobile //
+  --padding-primary: 2rem 3rem;
+  --padding-heading: 1rem;
+  --padding-heading-2: 1rem;
+  --padding-list: 1.5rem 2.5rem;
+  --padding-method: 2rem 0;
+  --padding-method-list: 0;
+  --padding-faq: 1rem 0 2rem;
+
+  // Padding on desktop //
+  @media only screen and (min-width: 768px) {
+    --padding-primary: 2rem 3rem;
+    --padding-heading: 2rem 3rem;
+    --padding-heading-2: 2rem 3rem;
+    --padding-method-list: 0 3rem;
+    --padding-list: 1.5rem 4.5rem;
+  }
+
+  // margin on mobile //
+  --margin-image: 1.5rem 0;
+} 
