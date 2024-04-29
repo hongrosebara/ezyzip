@@ -1,0 +1,74 @@
+
+/* Typography */
+
+.font-bold {
+  font-weight: 700;
+}
+
+.text-heading {
+  font-size: 2.25rem;
+}
+
+.text-medium {
+  font-size: 1.75rem;
+  font-weight: 400;
+}
+
+.text-light {
+  color: #ebebeb !important;
+}
+
+.text-gray {
+  color: #cacaca;
+}
+
+.text-decoration-none {
+  text-decoration: none;
+}
+
+/* Margins & Paddings */
+.mt-50 {
+  margin-top: 50px;
+}
+
+.mb-50 {
+  margin-bottom: 50px;
+}
+
+.mb-30 {
+  margin-bottom: 30px;
+}
+
+.my-50 {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.primary-padding {
+  padding-inline: 1rem;
+}
+
+@media (min-width: 980px) {
+  .primary-padding {
+    padding-inline: 10rem;
+  }
+}
+
+.padding-inner {
+  padding-right: 7%;
+  padding-left: 2rem;
+}
+
+/* Utilities */
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.border-sm {
+  border-radius: 1%;
+}
+
+/* Card */
+.card-text {
+  color: #cacaca;
+}
