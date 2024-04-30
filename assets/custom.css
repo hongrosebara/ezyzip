@@ -72,3 +72,7 @@
 .card-text {
   color: #cacaca;
 }
+
+.img-small {
+  max-width: 100px;
+}
