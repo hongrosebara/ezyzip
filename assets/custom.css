@@ -1,3 +1,12 @@
+:root {
+  --primary-color: #f8f9fa;
+  --secondary-color: #343a40;
+  --accent-color: 229, 213, 193; 
+  --neutral-light-color: 235, 235, 235;
+  --quinary-color: #e9ecef;
+  --senary-color: #212529;
+}
+
 
 /* Typography */
 
@@ -6,12 +15,19 @@
 }
 
 .text-heading {
-  font-size: 2.25rem;
+  font-size: 2rem;
+  text-transform: uppercase;
 }
 
 .text-medium {
-  font-size: 1.75rem;
+  font-size: 1.25rem;
   font-weight: 400;
+}
+
+@media (min-width: 768px) {
+  .text-medium {
+    font-size: 1.75rem;
+  }
 }
 
 .text-light {
@@ -44,6 +60,15 @@
   margin-bottom: 50px;
 }
 
+.py-50 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.pt-30 {
+  padding-top: 30px;
+}
+
 .primary-padding {
   padding-inline: 1rem;
 }
@@ -74,5 +99,20 @@
 }
 
 .img-small {
-  max-width: 100px;
+  width: 200px; 
+  height: 80px;
+}
+
+.bg-neutral-light {
+  background-color: rgba(var(--neutral-light-color), 0.3);
+}
+
+.home-how-to h3 {
+  font-size: 1.2rem;
+  margin-top: 1rem;
+  color: #cacaca;
+}
+
+.home-how-to a {
+  text-decoration: none;
 }
