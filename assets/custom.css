@@ -34,6 +34,10 @@
   font-size: 1rem;
 }
 
+.text-custom {
+  font-size: 1.2rem;
+}
+
 .text-light {
   color: #ebebeb !important;
 }
@@ -42,11 +46,20 @@
   color: #cacaca;
 }
 
+.text-accent {
+  color: rgb(var(--accent-color));
+
+}
+
 .text-decoration-none {
   text-decoration: none;
 }
 
 /* Margins & Paddings */
+.-mt-5 {
+  margin-top: -5px;
+}
+
 .mt-30 {
   margin-top: 30px;
 }
@@ -123,4 +136,19 @@
 
 .home-how-to a {
   text-decoration: none;
+}
+
+.btn-custom {
+  padding: 1rem 2rem;
+}
+
+.view-link {
+  margin-top: -15px;
+  color: rgb(var(--accent-color));
+  text-decoration: none;
+}
+
+.view-link:hover {
+  text-decoration: none;
+  color: rgba(var(--accent-color), 0.8);
 }
