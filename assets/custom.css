@@ -3,8 +3,6 @@
   --secondary-color: #343a40;
   --accent-color: 229, 213, 193; 
   --neutral-light-color: 235, 235, 235;
-  --quinary-color: #e9ecef;
-  --senary-color: #212529;
 }
 
 
@@ -178,4 +176,9 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+.image-icon {
+  max-width: 30px;
+  margin-bottom: 1rem;
 }
