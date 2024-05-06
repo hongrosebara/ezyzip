@@ -152,3 +152,30 @@
   text-decoration: none;
   color: rgba(var(--accent-color), 0.8);
 }
+
+.card-list {
+  background-color: #4e5d6c;
+}
+
+.card-list h3 {
+  color: #fff;
+  margin-bottom: 1rem;
+}
+
+.card-list p {
+  color: #cacaca;
+}
+
+.col-12.col-md-6.col-lg-4 {
+  height: 200px; /* Adjust this value as needed */
+}
+
+.article-list img {
+  display: block;
+  padding: 3px;
+  border-radius: 3px;
+  border: 5px solid #ccac84;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
